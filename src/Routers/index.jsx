@@ -11,9 +11,9 @@ const Routers = () => {
       <Header />
       <Routes>
         <Route path="/" exact element={<Marketplace />} />
-        <Route path="/" exact element={<Activity />} />
-        <Route path="/" exact element={<CuratedDrops />} />
-        <Route path="/" exact element={<VarifiedDrops />} />
+        <Route path="activity" exact element={<Activity />} />
+        <Route path="curateddrops" exact element={<CuratedDrops />} />
+        <Route path="varifieddrops" exact element={<VarifiedDrops />} />
       </Routes>
     </Router>
   );

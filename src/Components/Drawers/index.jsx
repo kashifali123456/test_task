@@ -1,19 +1,19 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import Drawer from "@material-ui/core/Drawer";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import CloseIcon from "@material-ui/icons/Close";
 import { ListItem, ListItemText } from "@material-ui/core";
 const DrawersButton = ({ open, handleDrawerClose, setOpen }) => {
   return (
     <>
       <Drawer
         open={open}
-        anchor="right"
+        anchor="top"
         backgroundColor="black"
         className="drawer"
       >
         <ListItem button onClick={handleDrawerClose}>
-          <ArrowForwardIosIcon />
+          <CloseIcon />
         </ListItem>
         <ListItem button>
           <ListItemText primary={" Curated Drops"} />
@@ -28,7 +28,7 @@ const DrawersButton = ({ open, handleDrawerClose, setOpen }) => {
           <ListItemText primary={"Activity"} />
         </ListItem>
         <ListItem button>
-          <ListItemText primary={"Company <KeyboardArrowDownIcon />"} />
+          <ListItemText primary={"Company "} />
         </ListItem>
 
         <ListItem button>
