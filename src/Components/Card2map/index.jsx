@@ -24,10 +24,17 @@ const Card2map = () => {
           </Button>
         </Grid>
       </Grid>
-      <Grid container>
+      <Grid item container xs={12} justifyContent="space-evenly">
         {data1.map((items) => {
           return (
-            <Grid item container xs={12} md={3}>
+            <Grid
+              item
+              container
+              xs={12}
+              md={3}
+              style={{ paddingTop: "20px" }}
+              justifyContent="space-evenly"
+            >
               <Card2 items={items} />{" "}
             </Grid>
           );

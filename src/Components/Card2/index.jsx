@@ -15,7 +15,7 @@ const Card2 = (props) => {
       <Box
         className={classes.CardOneContainer}
         width="292.03px"
-        height={460.77}
+        height={395.77}
         borderColor="grey"
         border={1}
         borderRadius="15px"
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
   cardimage: {
     borderRadius: "17px",
     width: "254.51px",
-    Height: "69.62px",
+    Height: "72.62px",
   },
   cardOnetitl: {
     color: "#586A6D",

@@ -64,4 +64,26 @@ export const data1 = [
   {
     image: img3,
   },
+  {
+    image: img3,
+  },
+  {
+    image: img3,
+  },
+  {
+    image: img3,
+  },
+
+  {
+    image: img3,
+  },
+  {
+    image: img3,
+  },
+  {
+    image: img3,
+  },
+  {
+    image: img3,
+  },
 ];
